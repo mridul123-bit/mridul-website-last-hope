@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .main-page {
+  padding: 5px;
+  text-align: center;
+  background-color: slateblue;
+  color: white;
+  border: 5px solid whitesmoke;
+}
+ 
+  h1 {
+      text-align: center;
+      font-size: 30px;
+        color :black
+  }
+ 
+  #note
+{
+    text-align: left;
+    color:black;
+}
+#marquee1
+{
+    
+    behavior: alternate;
+}
+
+
+.box {
+    
+           
+    background-color: rgba(196, 196, 196,0.3);
+    
+    padding: 10px;
+    margin: 5px;
+     
+ }
+
+ h5 {
+   text-align: center;
+   color: black;
+   font-size: 20px;
+ }
+     
+    
+    
+
+
+p {
+    text-align: center;
+    color: black;
+    font-size: 12px;
+}
+
+h6 {
+    text-align: center;
+    color: black;
+    font-size: 12px;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .main-page .maths .box {
+    width:100%;
+  }
+}
